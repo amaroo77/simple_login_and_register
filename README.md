@@ -1,4 +1,4 @@
-<h1>Simplest login and register system using html.</h1>
+<h1>Simplest login and register system using HTML.</h1>
 
 The login page are linked to the register page.<br>
 So, make sure to put all the file into the same folder<br>
