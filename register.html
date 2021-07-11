@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login and Registration form example</title>
+<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+
+<body bgcolor="#E6E6FA">
+<div class="form">
+  <form name="regi" action="register1.jsp" method="post">
+   <h2>Borang Pendaftaran</h2>
+
+  <label for="r1" id="fn">Nama Awal :</label>
+  <input type="text" name="fname" id="r1"><br/>
+
+  <label  for="r2" id="ln">Nama Akhir :</label>
+  <input type="text" name="lname" id="r2"><br/>
+
+  <label  for="r3" id="un">Nama Pengguna :</label>
+  <input type="text" name="uname" id="r3"><br/>
+
+  <label  for="r4" id="pwd">Kata Laluan :</label>
+  <input type="password" name="pass" id="r4"><br/>
+
+  <label  for="r5" id="em">Email :</label>
+  <input type="text" name="email" id="r5"><br/>
+
+  <label  for="r6" id="nt">No. Telefon:</label>
+  <input type="text" name="mno" id="r6"><br/>
+
+  <label for="r8" id="ng">Negeri:</label>
+
+  <select name="ct" id="r8">
+  <option>Pilih</option>
+  <option>Johor</option>
+  <option>Kedah</option>
+  <option>Kelantan</option>
+  <option>Melaka</option>
+  <option>Negeri Sembilan</option>
+  <option>Pahang</option>
+  <option>Pulau Pinang</option>
+  <option>Perak</option>
+  <option>Perlis</option>
+  <option>Sabah</option>
+  <option>Selangor</option>
+  <option>Wilayah Sarawak</option>
+  <option>W.P. Kuala Lumpur</option>
+  <option>W.P. Labuan</option>
+  </select><br/><br/>
+
+  <button class="button" type="submit" value="Submit" id="button">Daftar Masuk</button>
+  <a class="button" href="login.html" id="button">Balik Semula</a>
+
+  </form>
+</div>
+
+<script type="text/javascript">
+function save(){
+var user = document.getElementById("user").value;
+var pwd = document.getElementById("pwd").value;
+alert("username"+user+"password"+pwd);
+}
+</script>
+
+</body>
+</html>
